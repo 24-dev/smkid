@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SMKID - Platform Pencarian SMK di Indonesia 🚀
 
-## Getting Started
+Platform ini hadir untuk membantu kamu menemukan SMK di seluruh Indonesia! Di sini, kamu bisa melihat daftar SMK lengkap dengan alamatnya. Cukup klik nama sekolah untuk langsung menuju situs resminya dan mulai eksplorasi jurusan yang cocok buatmu!
 
-First, run the development server:
+## Bahasa Pemrograman 💻
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Proyek ini dibangun menggunakan **JavaScript** dengan framework **Next.js**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cara Menjalankan Proyek ⌨️
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Pastikan Anda sudah menginstall [Node.js](https://nodejs.org/) di mesin Anda.
+2. Clone repository ini ke komputer Anda:
+   ```bash
+   git clone https://github.com/24-dev/smkid.git
+   ```
+3. Pindah ke folder proyek:
+   ```
+   cd smkid
+   ```
+4. Install depedencies
+   ```
+   npm install 
+   // atau
+   yarn install
+   ```
+5. Jalankan proyek
+   ```
+   npm run dev
+   // atau
+   yarn dev
+   ```
+6. Buka browser dan akses halaman `http://localhost:3000`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Cara Berkontribusi 🙌
+1. **Fork** repository ini
+2. Buat branch baru untuk perubahan kamu:
+   ```
+   git checkout -b nama-branch-perubahan
+   ```
+3. Buat file markdown di dalam folder `_contents` dengan format berikut:
+   ```md
+   ---
+   name: 'Nama SMK'
+   address: 'Alamat lengkap SMK'
+   major: 'Jurusan yang tersedia'
+   ---
+   ```
 
-## Learn More
+   Contoh:
+   ```md
+   ---
+   name: 'SMK Negeri 24 Jakarta'
+   address: 'Jl. Bambu Hitam No.3, Jakarta Timur, DKI Jakarta'
+   major: 'Rekayasa Perangkat Lunak, Usaha Perjalanan Wisata, Perhotelan, Tata Boga, Tata Busana'
+   ---
+   ```
+4. Commit perubahan kamu:
+   ```
+   git commit -m "feat: Menambahkan data SMK [Nama SMK]"
+   ```
+5. Push perubahan ke repository kamu
+   ```
+   git push origin nama-branch-anda
+   ```
+6. Buat Pull Request (PR) ke repository utama kami. Tambahkan reviewer atau assignee pada PR Anda.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
