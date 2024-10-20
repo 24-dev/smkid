@@ -1,6 +1,3 @@
-### **Template Pull Request (PR)**:
-
-```md
 ## Deskripsi
 
 Jelaskan perubahan yang Anda buat secara singkat.
