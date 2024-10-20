@@ -19,14 +19,20 @@ export default function ContentItem({ content }) {
       <div className="border-t pt-4 border-[#6B778D]/[0.5]">
         <div className="flex gap-6">
           {content?.email && (
-            <p className="flex items-center gap-x-1.5">
+            <a
+              href={`mailto:${content?.email}`}
+              className="flex items-center gap-x-1.5"
+            >
               <HiOutlineMail className="text-xl" /> {content?.email}
-            </p>
+            </a>
           )}
           {content?.phone && (
-            <p className="flex items-center gap-x-1.5">
+            <a
+              href={`tel:${content?.phone}`}
+              className="flex items-center gap-x-1.5"
+            >
               <HiOutlinePhone className="text-xl" /> {content?.phone}
-            </p>
+            </a>
           )}
           {content?.website && (
             <a
