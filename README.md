@@ -63,4 +63,5 @@ Proyek ini dibangun menggunakan **JavaScript** dengan framework **Next.js**.
    git push origin nama-branch-anda
    ```
 6. Buat Pull Request (PR) ke repository utama kami. Tambahkan reviewer atau assignee pada PR Anda.
+7. **Dengan catatan**, pastikan data yang kamu PR itu up-to-date dan juga pastikan daftar yang kamu buat itu belum ada di dalam daftar yang sudah ada (duplikat).
 
