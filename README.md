@@ -8,8 +8,8 @@ Proyek ini dibangun menggunakan **JavaScript** dengan framework **Next.js**.
 
 ## Cara Menjalankan Proyek ⌨️
 
-1. Pastikan Anda sudah menginstall [Node.js](https://nodejs.org/) di mesin Anda.
-2. Clone repository ini ke komputer Anda:
+1. Pastikan kamu sudah menginstall [Node.js](https://nodejs.org/) di mesin kamu.
+2. Clone repository ini ke komputer kamu:
    ```bash
    git clone https://github.com/24-dev/smkid.git
    ```
@@ -60,8 +60,8 @@ Proyek ini dibangun menggunakan **JavaScript** dengan framework **Next.js**.
    ```
 5. Push perubahan ke repository kamu
    ```
-   git push origin nama-branch-anda
+   git push origin nama-branch-kamu
    ```
-6. Buat Pull Request (PR) ke repository utama kami. Tambahkan reviewer atau assignee pada PR Anda.
+6. Buat Pull Request (PR) ke repository utama kami. Tambahkan reviewer atau assignee pada PR kamu.
 7. **Dengan catatan**, pastikan data yang kamu PR itu up-to-date dan juga pastikan daftar yang kamu buat itu belum ada di dalam daftar yang sudah ada (duplikat).
 
