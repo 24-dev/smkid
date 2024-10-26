@@ -5,5 +5,5 @@ major: 'Rekayasa Perangkat Lunak (RPL), Multimedia, Bisnis Daring dan Pemasaran,
 email: 'humas@smkn2jkt.sch.id'
 phone: '(021) 3846219'
 website: 'https://www.smkn2jkt.sch.id/'
-maps: '[https://maps.app.goo.gl/7jGsg358xg75RH6HA](https://maps.app.goo.gl/LXhbvoF3REPATtC96)'
+maps: 'https://maps.app.goo.gl/mpQr8pMzuDDLLGha9'
 ---
