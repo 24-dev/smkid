@@ -2,6 +2,14 @@
 
 Platform ini hadir untuk membantu kamu menemukan SMK di seluruh Indonesia! Di sini, kamu bisa melihat daftar SMK lengkap dengan alamatnya. Cukup klik nama sekolah untuk langsung menuju situs resminya dan mulai eksplorasi jurusan yang cocok buatmu!
 
+## Kontributor
+
+Terima kasih kepada semua kontributor yang telah berkontribusi pada proyek ini!
+
+![Daftar Kontributor](https://contrib.rocks/image?repo=24-dev/smkid)
+
+[Melihat Kontributor di GitHub](https://github.com/24-dev/smkid/graphs/contributors)
+
 ## Bahasa Pemrograman 💻
 
 Proyek ini dibangun menggunakan **JavaScript** dengan framework **Next.js**.
